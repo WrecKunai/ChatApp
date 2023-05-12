@@ -1,0 +1,37 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login-input{
+    margin-bottom: 10px;
+    border-style: inherit;
+    border: 1px solid;
+    height: 2rem;
+    border-radius: 5px;
+}
+.log-h1{
+    margin-bottom: 50px;
+}
+.label-login{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.Login-btn{
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue; 
+}
+.register-redirect{
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue; 
+}

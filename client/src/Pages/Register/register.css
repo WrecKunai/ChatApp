@@ -1,0 +1,44 @@
+.register-btn{
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue;
+}
+.login-btn{
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue; 
+}
+.register-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.register-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.register-input{
+    margin-bottom: 10px;
+    border-style: inherit;
+    border: 1px solid;
+    height: 2rem;
+    border-radius: 5px;
+}
+.log-h1{
+    margin-bottom: 50px;
+}
+.register-login{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.reg-form{
+    display: flex;
+    flex-direction: column;
+}
+.upload-input{
+    width: 70%;
+}
