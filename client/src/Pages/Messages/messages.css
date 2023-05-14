@@ -1,117 +1,72 @@
-/* .right{
-    
-    display: flex;
-   
-    background-color: wheat;
-     justify-content: flex-end;
-} */
-/* .left{
-   
-    display: flex;
-   
-    background-color: red;
-} */
-/* .h1-msg{
-    font-size: 1rem;
-    border-radius: 1rem;
-    background-color: green;
-   margin-left: 1rem;
-   
-   padding: 1rem;
-    overflow-wrap: break-word;
-} */
-
-/* .right .h1-msg{
-    font-size: 1rem;
-    border-radius: 20px;
-    background-color: grey;
-    margin-right: 1rem;
-   width: max-content;
-    overflow-wrap: break-word;
-    padding: 10px;
-   
-} */
-/* .div23{
-display: flex;
-
-}
-.ty{
-  
-} */
-/* @media screen and (max-width: 800px){
-    .right .h1-msg{
-        
-        inline-size: 100%;
-        
-
-    }
-} */
 .messageBox {
-    background: #F3F3F3;
-    
-    padding: 5px 20px;
-    color: white;
-    display: inline-block;
-    max-width: 80%;
-  }
-  
-  .messageText {
-    width: 100%;
-    letter-spacing: 0;
-    
-    font-size: 1.1em;
-    word-wrap: break-word;
-  }
-  
-  .messageText img {
-    vertical-align: middle;
-  }
-  
-  .messageContainer {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 5%;
-    margin-top: 3px;
-  }
-  
-  .sentText {
-    display: flex;
-    align-items: center;
-    font-family: Helvetica;
-    color: #828282;
-    letter-spacing: 0.3px;
-  }
-  
-  .pl-10 {
-    padding-left: 10px;
-  }
-  
-  .pr-10 {
-    padding-right: 10px;
-  }
-  
-  .justifyStart {
-    justify-content: flex-start;
-  }
-  
-  .justifyEnd {
-    justify-content: flex-end;
-  }
-  
-  .colorWhite {
-    color: white;
-  }
-  
-  .colorDark {
-    color: #353535;
-  }
-  
-  .backgroundBlue {
-    background: #2979FF;
-    border-radius: 20px 5px 20px 20px;
-  }
-  
-  .backgroundLight {
-    background: #F3F3F3;
-    border-radius: 5px 20px 20px 20px;
-  }
+  background: #f3f3f3;
+
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+.messageBox > p {
+  font-family: "Ysabeau", sans-serif;
+  font-weight: bold;
+}
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+
+  font-size: 1.1em;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+  border-radius: 20px 5px 20px 20px;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+  border-radius: 5px 20px 20px 20px;
+}
